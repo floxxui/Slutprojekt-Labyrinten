@@ -6,7 +6,7 @@ namespace Slutprojekt_Labyrinten
     {
         static void Main(string[] args)
         {
-            string currentRoom = ""; //Rummet som man befinner sig i. Kommer vara viktig
+            string currentRoom = ""; //Rummet som man befinner sig i
 
             string[] roomDesc = 
             { 
@@ -66,8 +66,9 @@ namespace Slutprojekt_Labyrinten
             }
         }
 
-        static string BASIC_ROOM()
+        static string BASE_ROOM()
         {
+            Console.WriteLine();
 
             Console.WriteLine("Would you like to investigate? (y/n)");
 
@@ -89,7 +90,7 @@ namespace Slutprojekt_Labyrinten
 
                 }
             }
-            //En metod för ett repetativt rum där ingenting händer
+            //En metod för hur ett rum ska se ut på basen
         }
 
         static void MAP()
